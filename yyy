@@ -1,0 +1,55 @@
+signature: 12a82b2f8717d21dddcf785782fa007e108e572ecf70a6bfa31cf488a856087efa4a994e05019e1c1f52ef1eb7268156faf7dc5f9772a69d344462cd9e53a401
+subwallet_id: 698983191
+valid_until: 1755663979
+seqno: 125
+payload:
+  sum_type: SimpleSend
+  simple_send:
+    payload:
+      - mode: 3
+        message:
+          sum_type: MessageInternal
+          message_internal:
+            ihr_disabled: true
+            bounce: false
+            bounced: false
+            src: ""
+            dest: 0:408da3b28b6c065a593e10391269baaa9c5f8caebc0c69d9f0aabbab2a99256b
+            value:
+              grams: "3690000000"
+              other: {}
+            ihr_fee: "0"
+            fwd_fee: "0"
+            created_lt: 0
+            created_at: 0
+            init: null
+            body:
+              is_right: true
+              value:
+                sum_type: TextComment
+                op_code: 0
+                value:
+                  text: |-
+                    Telegram Premium for 3 months 
+
+                    Ref#TTTUA11lG
+  deploy_and_install_plugin:
+    plugin_workchain: 0
+    plugin_balance: "0"
+    state_init:
+      split_depth: null
+      special: null
+      code: null
+      data: null
+      library: {}
+    body: {}
+  install_plugin:
+    plugin_workchain: 0
+    plugin_address: "0000000000000000000000000000000000000000000000000000000000000000"
+    amount: "0"
+    query_id: 0
+  remove_plugin:
+    plugin_workchain: 0
+    plugin_address: "0000000000000000000000000000000000000000000000000000000000000000"
+    amount: "0"
+    query_id: 0
